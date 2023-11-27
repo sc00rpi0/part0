@@ -24,6 +24,6 @@ sequenceDiagram
     activate server
     server-->>browser: [{ "content": "First exercise", "date": "2023-11-28" }, ... ]
     deactivate server
+```
 
     Note right of browser: The browser executes the callback function that renders the notes
-    ```
